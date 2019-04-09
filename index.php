@@ -9,6 +9,7 @@
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"> -->
 </head>
 <body>
+    <div>Привет!</div>
     <div class="wrapper">
         <header class="header">
             <div class="header__left">
