@@ -1,0 +1,87 @@
+.details-block {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.details-pic {
+    width: 50%;
+    height: 450px;
+    margin: 0 auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.details-title {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.details-code {
+    color: #a3a3a3;
+}
+
+.details-price {
+    font-family: Georgia;
+    font-size: 18px;
+    font-style: italic;
+    color: #606060;
+}
+
+.details-price_margin {
+    margin: 15px 0;
+}
+
+.details-description {
+    color: #606060;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+
+.details-size__text {
+    color: #606060;
+    text-transform: uppercase;
+}
+
+.details-size__text_margin {
+    margin: 20px 0;
+}
+
+.details-size__item {
+    color: #464542;
+    border: 1px solid #959595;
+    padding: 7px;
+    transition: 0.4s all;
+    cursor: pointer;
+}
+
+.details-size__item:hover {
+    background: #464542;
+    color: #fff;
+    border-color: #464542;
+}
+
+.details-size__item_margin {
+    margin: 0 4px;
+}
+
+.button {
+    background: #f68236;
+    width: 190px;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+
+.button:hover {
+    background: #fa761d;
+}
+
+.button_margin {
+    margin-top: 50px;
+}

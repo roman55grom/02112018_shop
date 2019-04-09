@@ -1,0 +1,28 @@
+.navigation__link {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+@media (max-width: 900px) {
+    .navigation {
+        position: absolute;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        padding: 20px 0;
+        background: rgba(34, 34, 34, 0.8);
+        text-align: center;
+        position: fixed;
+        transition: 0.6s all;
+    }
+    .navigation__link {
+        display: block;
+        margin: 20px 0;
+        color: #fff;
+    }
+}
+
+.navigation_active {
+    left: 0;
+}

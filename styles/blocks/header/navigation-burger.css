@@ -1,0 +1,30 @@
+.navigation-burger {
+    position: fixed;
+    display: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.navigation-burger__stick {
+    display: none;
+    background: #222222;
+    width: 40px;
+    height: 4px;
+    margin: 8px 0;
+    transition: 0.3s all;
+}
+
+@media (max-width: 900px) {
+    .navigation-burger {
+        display: block;
+    }
+    .navigation-burger__stick {
+        display: block;
+    }
+}
+
+.navigation-burger__stick_active {
+    background: #fff;
+}

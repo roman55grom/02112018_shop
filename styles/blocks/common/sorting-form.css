@@ -1,0 +1,30 @@
+.sorting-form {
+    text-align: center;
+}
+
+.sorting-form_margin {
+    margin: 40px 0;
+}
+
+.sorting-form__dropdown {
+    width: 170px;
+    border-bottom: 1px solid #303030;
+    color: #606060;
+    font-family: Georgia;
+    font-style: italic;
+    padding: 3px 0;
+}
+
+@media(max-width: 850px) {
+    .sorting-form__dropdown {
+        width: 100px;
+    }
+}
+
+.sorting-form__dropdown_margin {
+    margin: 0 10px;
+}
+
+.dropdown__item:first-child {
+    display: none;
+}

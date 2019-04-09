@@ -1,0 +1,8 @@
+.preloader {
+    display: none;
+    margin-bottom: 40px;
+}
+
+.preloader_active {
+    display: block;
+}

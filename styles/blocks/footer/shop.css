@@ -1,0 +1,23 @@
+.shop {
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    padding: 20px 10%;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.shop__title {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.shop__link {
+    display: block;
+    margin: 6px 0;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.shop__link:hover {
+    text-decoration: underline;
+}

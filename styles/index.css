@@ -1,0 +1,16 @@
+@import 'blocks/common/wrapper.css';
+@import 'blocks/common/inside-text.css';
+@import 'blocks/common/breadcrumb.css';
+@import 'blocks/common/title.css';
+@import 'blocks/header/header.css';
+@import 'blocks/header/logo.css';
+@import 'blocks/header/navigation.css';
+@import 'blocks/header/navigation-burger.css';
+@import 'blocks/header/login.css';
+@import 'blocks/header/basket.css';
+@import 'blocks/home-wrapper/home.css';
+@import 'blocks/home-wrapper/subscribe.css';
+@import 'blocks/footer/footer.css';
+@import 'blocks/footer/collections.css';
+@import 'blocks/footer/shop.css';
+@import 'blocks/footer/social.css';

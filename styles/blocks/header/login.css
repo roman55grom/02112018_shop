@@ -1,0 +1,21 @@
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.login_margin-right {
+    margin-right: 50px;
+}
+
+@media (max-width: 930px) {
+    .login_margin-right {
+        margin-right: 5px;
+    }
+}
+  
+.login__pic {
+    width: 30px;
+    height: 40px;
+    background: url(/images/icons/account.png) center center / contain no-repeat;
+    margin-right: 5px;
+}

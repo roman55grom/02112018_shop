@@ -1,0 +1,31 @@
+.pages-product {
+    text-align: center;
+}
+
+.pages-product__item {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: #303030;
+    border: 1px solid transparent;
+    color: #fff;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pages-product__item:hover {
+    background: #fff;
+    border-color: #303030;
+    color: #303030;
+}
+
+.pages-product__item_margin {
+    margin: 0 2px;
+}
+
+.pages-product__item_active {
+    color: #303030;
+    background: #fff;
+    border-color: #303030;
+}

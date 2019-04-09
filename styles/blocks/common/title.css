@@ -1,0 +1,49 @@
+.block-title {
+    text-align: center;
+}
+
+.block-title_margin {
+    margin-top: 30px;
+}
+
+.block-title_margin-home {
+    margin-top: 120px;
+}
+
+.block-title__title {
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.block-title__title_home {
+    font-size: 56px;
+    margin-bottom: 0;
+}
+
+.block-title__text {
+    color: #606060;
+    font-style: italic;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.block-title__text_margin {
+    margin-top: 10px;
+}
+
+.title-button {
+    display: inline-block;
+    color: #606060;
+    text-decoration: none;
+    border: 1px solid #606060;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 20px 40px;
+    font-size: 16px;
+}
+
+.title-button_margin {
+    margin-top: 30px;
+}

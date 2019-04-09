@@ -1,0 +1,9 @@
+.breadcrumb {
+    text-transform: uppercase;
+    padding: 25px 0;
+    color: #606060;
+}
+
+.breadcrumb_margin {
+    margin: 0 8px;
+}

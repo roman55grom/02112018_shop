@@ -1,0 +1,21 @@
+.collections {
+    padding: 20px 0;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.collections__title {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.collections__link {
+    display: block;
+    margin: 6px 0;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.collections__link:hover {
+    text-decoration: underline;
+}

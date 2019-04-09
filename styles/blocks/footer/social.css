@@ -1,0 +1,43 @@
+.social {
+    padding: 20px 0;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.social_margin {
+    margin-left: 20px;
+}
+
+.social__title {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.social__text {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.social__links {
+    display: flex;
+}
+
+.social__link {
+    color: #606060;
+    display: block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid #606060;
+}
+
+.social__link:hover {
+    color: #fff;
+    background: #606060;
+}
+
+.social__link_margin {
+    margin-right: 10px;
+    margin-top: 20px;
+}
